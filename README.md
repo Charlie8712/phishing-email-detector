@@ -92,10 +92,11 @@ These visualizations provide insight into dataset imbalance handling and model p
 ---
 
 ## Project Structure
-src/ # Data preprocessing, feature extraction, training scripts
-data/ # Cleaned email datasets
-graphs/ # Evaluation visualizations
-models/ # Trained model artifacts
+
+- src/ # Data preprocessing, feature extraction, training scripts
+- data/ # Cleaned email datasets
+- graphs/ # Evaluation visualizations
+- models/ # Trained model artifacts
 
 
 ---
