@@ -93,6 +93,8 @@ These visualizations provide insight into dataset imbalance handling and model p
 
 ## Project Structure
 
+```
+
 Phishing-Email-Detection/
 │
 ├── src/                           # Core machine learning pipeline
@@ -113,6 +115,7 @@ Phishing-Email-Detection/
 │
 ├── .gitignore                     # Git ignore rules for large files
 ├── README.md                      # Project documentation
+```
 
 ---
 
