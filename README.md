@@ -93,11 +93,26 @@ These visualizations provide insight into dataset imbalance handling and model p
 
 ## Project Structure
 
-- src/ # Data preprocessing, feature extraction, training scripts
-- data/ # Cleaned email datasets
-- graphs/ # Evaluation visualizations
-- models/ # Trained model artifacts
-
+Phishing-Email-Detection/
+│
+├── src/                           # Core machine learning pipeline
+│   ├── clean_merge.py            # Data preprocessing + dataset निर्माण
+│   ├── parse_ham.py              # Legitimate email parser
+│   ├── parse_phishing.py         # Phishing dataset parser
+│   ├── train_model.py            # Baseline TF-IDF model
+│   ├── train_model_with_features.py  # Final hybrid model (text + structure)
+│   ├── generate_graphs.py        # Evaluation visualizations
+│
+├── graphs/                        # Model evaluation outputs
+│   ├── class_distribution_before.png
+│   ├── class_distribution_after.png
+│   ├── confusion_matrix.png
+│
+├── data/                          # Cleaned datasets
+│   └── ham_clean.csv             # Legitimate email dataset sample
+│
+├── .gitignore                     # Git ignore rules for large files
+├── README.md                      # Project documentation
 
 ---
 
